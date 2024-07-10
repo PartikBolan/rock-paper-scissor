@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    user-select: none;
+}
+
+body{
+    background-color:cornflowerblue;
+}
+header{
+    background-color: rgb(19, 18, 18);
+}
+.heading{
+    color: #fff;
+    height: 4rem;
+    line-height: 4rem;
+}
+
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 3rem;
+
+}
+
+#rock{
+    background-color:rgb(216, 91, 91);
+}
+
+#scissor{
+    background-color: rgb(14, 123, 51);
+}
+
+#paper{
+    background-color: goldenrod;
+}
+
+.choice{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 6rem;
+    transition: all .2s ease;
+
+}
+
+.choice:hover{
+    box-shadow:  1px 1px 10px 2px rgb(10, 96, 128);
+    transform: scale(1.05);
+}
+
+
+.para{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.msgBox-container{
+    margin-top: 4rem;
+}
+
+#messageBox{
+    background-color: rgb(19, 18, 18);
+    color: #fff;
+    display: inline;
+    padding: 0.8rem;
+    border-radius: 1rem;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 3rem;
+    gap: 2rem;
+}
+
+#user-score, #comp-score{
+    font-size: 2.5rem;
+}
