@@ -88,3 +88,23 @@ header{
 #user-score, #comp-score{
     font-size: 2.5rem;
 }
+@media only screen and (max-width: 600px) {
+    .heading {
+        height: 3rem;
+        line-height: 3rem;
+        font-size: 1.5rem;
+    }
+    .choice, .para {
+        width: 90px;
+        height: 90px;
+    }
+    .choices {
+        gap: 0;
+    }
+    .score, #comp-score, #user-score {
+        font-size: 1rem;
+    }
+    .score-board > p {
+        font-size: 1.3rem;
+    }
+}
